@@ -5,24 +5,33 @@ This module demonstrates how to INPUT from the CONSOLE:
   -- strings.
 
 Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         their colleagues and Will Detterman.
+"""  # DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 ########################################################################
-# TODO: 2.  Read and run this program.  Then do the following problems,
+# DONE: 2.  Read and run this program.  Then do the following problems,
 #   putting your answers RIGHT HERE IN THIS DOCUMENT.
 #
 #   1. Write a line of code that would input an INTEGER from the
 #      console, storing the integer in a variable called 'x'.
 #      Write your line here:
 #
+
+x = int(input('x:'))
+
 #   2. Write a line of code that would input an FLOAT from the console,
 #      storing the float in a variable called 'x'.
 #      Write your line here:
+
+x = float(input('x2:'))
+
 #
 #   3. Write a line of code that would input an STRING from the console,
 #      storing the string in a variable called 'x'.
 #      Write your line here:
+
+x = str(input('string:'))
+
 #
 #   4. What happens if you (the user) enter something OTHER than a
 #      single integer (e.g., you enter
